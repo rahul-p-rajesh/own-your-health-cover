@@ -63,6 +63,7 @@ body {
   color: #fff;
 }
 #card1 p {
+  font-size: 18px;
   padding-top: 20px;
   padding-bottom: 10px;
 }
@@ -90,7 +91,7 @@ div#card1 {
 }
 
 div#card2 {
-  height: 600px;
+  height: 500px;
 
   background-image: url(./images/gradientblue.png);
   background-size: cover;
@@ -106,8 +107,8 @@ div#card2 .highlight-text-yellow {
 }
 div#card2 .highlight-text-yellow p {
   max-width: 70%;
-  line-height: 48px;
-  font-size: 40px;
+  line-height: 42px;
+  font-size: 36px;
   font-weight: 500;
 }
 
@@ -115,7 +116,7 @@ div#card3 {
   z-index: 12;
   color: #fff;
   padding-bottom: 80px;
-  /* height: 400px; */
+  height: 750px;
 }
 
 div#card3 h3 {
@@ -210,7 +211,7 @@ div#card4 {
   margin: 0;
   line-height: 22px;
   font-weight: 200;
-  font-size: 16px;
+  font-size: 18px;
 }
 .feature-item h4 {
   font-size: 24px;
@@ -303,6 +304,13 @@ div#card4 {
   border-radius: 50px;
   padding: 10px 20px;
   text-align: center;
+
+  background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10.5px );
+-webkit-backdrop-filter: blur( 10.5px );
+border-radius: 30px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .fixed-button .shiny-cta {
@@ -310,7 +318,7 @@ div#card4 {
   border: none;
   /* border-radius: 8px; */
   /* background: linear-gradient(135deg, #34d399, #3b82f6); */
-  color: black;
+  color: white;
   font-weight: bold;
   cursor: pointer;
   transition: transform 0.2s;
