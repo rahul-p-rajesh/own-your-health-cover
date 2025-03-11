@@ -21,6 +21,7 @@ body {
   width: 72%;
   margin-bottom: -1px;
 }
+
 .cardswithlady {
   text-align: center;
 }
@@ -58,10 +59,12 @@ body {
 .highlight-text-yellow {
   color: #f4d03f;
 }
+
 .commonHead {
   padding-top: 65px;
   color: #fff;
 }
+
 #card1 p {
   font-size: 18px;
   padding-top: 20px;
@@ -84,6 +87,7 @@ div#card1 {
   z-index: 4;
   color: #fff;
 }
+
 .commonHead h2 {
   line-height: 58px;
   font-size: 40px;
@@ -105,6 +109,7 @@ div#card2 .highlight-text-yellow {
   flex-direction: column;
   justify-content: center;
 }
+
 div#card2 .highlight-text-yellow p {
   max-width: 70%;
   line-height: 42px;
@@ -127,6 +132,7 @@ div#card3 h3 {
 .margin-auto {
   margin: auto;
 }
+
 .trainer-item {
   background-color: #2e2e2e;
   margin: auto;
@@ -136,6 +142,7 @@ div#card3 h3 {
   color: #fff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
+
 .trainer-item h4 {
   font-size: 28px;
   font-weight: 500;
@@ -143,6 +150,7 @@ div#card3 h3 {
   padding: 20px 0 2px 0;
   letter-spacing: 0.5px;
 }
+
 .trainer-item p {
   margin-bottom: 20px;
   /* color: #000; */
@@ -152,19 +160,23 @@ div#card3 h3 {
   font-size: 16px;
   padding: 8px 31px 37px;
 }
+
 .trainer-item img {
   width: 100%;
   border-radius: 5px;
 }
+
 /* card 4 starts here */
 div#card4 {
   z-index: 13;
 }
+
 #card4 h3 {
   color: #fff;
   line-height: 65px;
   font-size: 45px;
 }
+
 .navbar .container {
   padding-top: 0px;
 }
@@ -194,6 +206,7 @@ div#card4 {
   padding: 0;
   margin: 0;
 }
+
 .feature-item {
   background-color: #2e2e2e;
   color: #fff;
@@ -207,16 +220,19 @@ div#card4 {
   max-width: 382px;
   width: 100%;
 }
+
 .feature-item p {
   margin: 0;
   line-height: 22px;
   font-weight: 200;
   font-size: 18px;
 }
+
 .feature-item h4 {
   font-size: 24px;
   font-weight: 300;
 }
+
 .number {
   width: 32px;
   color: #000;
@@ -305,12 +321,12 @@ div#card4 {
   padding: 10px 20px;
   text-align: center;
 
-  background: rgba( 255, 255, 255, 0.3 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 10.5px );
--webkit-backdrop-filter: blur( 10.5px );
-border-radius: 30px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .fixed-button .shiny-cta {
@@ -330,23 +346,26 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   #cover-description-text {
     width: 350px;
   }
 }
 
 .feature-box {
-  padding: 0 12px; /* Adds spacing only between cols */
+  padding: 0 12px;
+  /* Adds spacing only between cols */
 }
 
 @media (max-width: 700px) {
   .col-md-6.text-end.media700 {
     text-align: left !important;
   }
+
   .earlyaccesscontainer {
     padding: 30px 0px 5px 0px;
   }
+
   .commonHead h2 {
     font-size: 26px;
     line-height: 36px;
@@ -356,24 +375,28 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     line-height: 30px;
     font-size: 26px;
   }
-  
+
   .fixed-button .shiny-cta {
     width: 200px;
   }
+
   .fixed-button img {
     width: 80px;
   }
+
   #card1 p,
   #card3 p {
     font-size: 16px;
   }
 
   #card3 h2,
-  #card4 h2{
+  #card4 h2 {
     line-height: 30px;
   }
-  #card3, #card4{
-    .card-body{
+
+  #card3,
+  #card4 {
+    .card-body {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -384,5 +407,5 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   #card1 #cover-description-text {
     max-width: 240px;
     white-space: normal;
-}
+  }
 }
