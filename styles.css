@@ -18,7 +18,7 @@ body {
 }
 
 .cardswithlady .card-img-top {
-  width: 72%;
+  width: 82%;
   margin-bottom: -1px;
 }
 
@@ -66,7 +66,7 @@ body {
 }
 
 #card1 p {
-  font-size: 18px;
+  font-size: 20px;
   padding-top: 20px;
   padding-bottom: 10px;
 }
@@ -90,7 +90,7 @@ div#card1 {
 
 .commonHead h2 {
   line-height: 58px;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 500;
 }
 
@@ -120,13 +120,30 @@ div#card2 .highlight-text-yellow p {
 div#card3 {
   z-index: 12;
   color: #fff;
-  padding-bottom: 80px;
-  height: 750px;
+  padding-bottom: 100px;
+  height: 850px;
+}
+
+div#card3 .title-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    max-width: 80%;
+    margin: 0;
+  }
 }
 
 div#card3 h3 {
   font-size: 45px;
   line-height: 65px;
+}
+
+p {
+  font-size: 18px;
 }
 
 .margin-auto {
@@ -357,6 +374,10 @@ div#card4 {
   /* Adds spacing only between cols */
 }
 
+footer {
+  margin-bottom: 50px;
+}
+
 @media (max-width: 700px) {
   .col-md-6.text-end.media700 {
     text-align: left !important;
@@ -384,11 +405,6 @@ div#card4 {
     width: 80px;
   }
 
-  #card1 p,
-  #card3 p {
-    font-size: 16px;
-  }
-
   #card3 h2,
   #card4 h2 {
     line-height: 30px;
@@ -401,11 +417,14 @@ div#card4 {
       flex-direction: column;
       align-items: center;
     }
-
   }
 
   #card1 #cover-description-text {
     max-width: 240px;
     white-space: normal;
+  }
+
+  footer {
+    margin-bottom: 100px;
   }
 }
